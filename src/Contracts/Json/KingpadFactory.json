@@ -1,0 +1,59 @@
+{
+  "address": "",
+  "testAddress": "0xAD09c228254382E7789F8Faa235Cc5C66e760131",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address[]",
+          "name": "addressInfo",
+          "type": "address[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "uintInfo",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "bool[]",
+          "name": "boolInfo",
+          "type": "bool[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "vestingInfo",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "name": "createPsale",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "name": "getSaleAdrsFromTokenA",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
